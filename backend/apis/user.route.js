@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const userModel = require('./db/user.model');
+const userModel = require('./db/user/user.model');
 const jwtHelpers = require('./helpers/jwt')
 
 router.post('/login', async function(request, response) {
