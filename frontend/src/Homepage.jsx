@@ -13,7 +13,9 @@ export default function Homepage() {
     const [editText, setEditText] = useState('');
     const navigate = useNavigate();
 
+    console.log("000")
     useEffect(() => {
+        console.log("111")
         const fetchCurrentUser = async () => {
             try {
                 const response = await axios.get('/api/user/isLoggedIn');
