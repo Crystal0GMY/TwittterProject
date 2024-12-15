@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const StatusSchema = require('../status.schema').StatusSchema
+const StatusSchema = require('./status.schema').StatusSchema
 
 const StatusModel = mongoose.model("StatusTwitterProject", StatusSchema);
 

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const statusModel = require('./db/status/status.model');
-const jwtHelpers = require('./helpers/jwt')
+const statusModel = require('../db/status/status.model');
+const jwtHelpers = require('../helpers/jwt')
 
 
 router.get('/', async function(req, res) {
